@@ -26,20 +26,11 @@
       content-class="bg-grey-1"
     >
       <q-list>
-        <q-item-label
-          header
-          class="text-grey-8"
-        >
+        <q-item-label header class="text-grey-8">
           Essential Links
         </q-item-label>
-        <q-item
-          clickable
-          tag="a"
-          :to="{name: 'DataPage'}"
-        >
-          <q-item-section
-            avatar
-          >
+        <q-item clickable tag="a" :to="{ name: 'DataPage' }">
+          <q-item-section avatar>
             <q-icon name="o_add_box" />
           </q-item-section>
 
@@ -50,14 +41,8 @@
             </q-item-label>
           </q-item-section>
         </q-item>
-        <q-item
-          clickable
-          tag="a"
-          :to="{name: 'VizPage'}"
-        >
-          <q-item-section
-            avatar
-          >
+        <q-item clickable tag="a" :to="{ name: 'VizPage' }">
+          <q-item-section avatar>
             <q-icon name="add_chart" />
           </q-item-section>
 
@@ -78,13 +63,12 @@
 </template>
 
 <script>
-
 export default {
-  name: 'MainLayout',
-  data () {
+  name: "MainLayout",
+  data() {
     return {
-      leftDrawerOpen: false,
-    }
+      leftDrawerOpen: false
+    };
   }
-}
+};
 </script>

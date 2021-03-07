@@ -5,13 +5,12 @@
 </template>
 
 <script>
-
 export default {
-  name: 'Visualize',
-  data () {
+  name: "Visualize",
+  data() {
     return {
-      leftDrawerOpen: false,
-    }
+      leftDrawerOpen: false
+    };
   }
-}
+};
 </script>
