@@ -1,13 +1,13 @@
 <template>
   <div>
-    Data
+    Visualize
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'Data',
+  name: 'Visualize',
   data () {
     return {
       leftDrawerOpen: false,
